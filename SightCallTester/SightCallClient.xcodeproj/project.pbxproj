@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BD90F471AEEA73B00F55383 /* CallReceiverNoReset1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD90F461AEEA73B00F55383 /* CallReceiverNoReset1.m */; };
+		43E5826E1AEEBBE0002CB5C3 /* CallManager2.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E5826D1AEEBBE0002CB5C3 /* CallManager2.m */; };
+		43E582711AEEBDD5002CB5C3 /* CallReceiver2.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E582701AEEBDD5002CB5C3 /* CallReceiver2.m */; };
+		43E582741AEED0D7002CB5C3 /* CallManager3.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E582731AEED0D7002CB5C3 /* CallManager3.m */; };
+		43E582771AEED106002CB5C3 /* CallReceiver3.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E582761AEED106002CB5C3 /* CallReceiver3.m */; };
+		43E80AD71AEA877F00A9C436 /* Auth.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E80AD61AEA877F00A9C436 /* Auth.m */; };
+		43E80ADA1AEAA40100A9C436 /* CallManager1.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E80AD91AEAA40100A9C436 /* CallManager1.m */; };
+		43E80ADE1AEAA92400A9C436 /* CallsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E80ADD1AEAA92400A9C436 /* CallsGenerator.m */; };
+		43E80AE11AEADDF400A9C436 /* CallsReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E80AE01AEADDF400A9C436 /* CallsReceiver.m */; };
+		43E80AE41AEADE6200A9C436 /* CallReceiver1.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E80AE31AEADE6200A9C436 /* CallReceiver1.m */; };
+		43E80AE71AEAF18C00A9C436 /* CallsTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E80AE61AEAF18C00A9C436 /* CallsTester.m */; };
+		43E8DED51AED93AC0065327A /* RtccLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8DED41AED93AC0065327A /* RtccLogViewController.m */; };
+		43EA52541AEB8E1B0088F563 /* TabbedMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43EA52531AEB8E1B0088F563 /* TabbedMain.storyboard */; };
+		43ED01DE1AE94256006BE012 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ED01DD1AE94256006BE012 /* main.m */; };
+		43ED01E11AE94256006BE012 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ED01E01AE94256006BE012 /* AppDelegate.m */; };
+		43ED01E41AE94256006BE012 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ED01E31AE94256006BE012 /* ViewController.m */; };
+		43ED01E71AE94256006BE012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43ED01E51AE94256006BE012 /* Main.storyboard */; };
+		43ED01E91AE94256006BE012 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43ED01E81AE94256006BE012 /* Images.xcassets */; };
+		43ED01EC1AE94256006BE012 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43ED01EA1AE94256006BE012 /* LaunchScreen.xib */; };
+		43ED01F81AE94256006BE012 /* SightCallClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ED01F71AE94256006BE012 /* SightCallClientTests.m */; };
+		43ED02031AE94281006BE012 /* RtccSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED02021AE94281006BE012 /* RtccSDK.framework */; };
+		43ED02051AE942BA006BE012 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED02041AE942BA006BE012 /* AVFoundation.framework */; };
+		43ED02071AE942C2006BE012 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED02061AE942C2006BE012 /* CFNetwork.framework */; };
+		43ED02091AE942D4006BE012 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED02081AE942D4006BE012 /* QuartzCore.framework */; };
+		43ED020B1AE94311006BE012 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED020A1AE94311006BE012 /* Foundation.framework */; };
+		43ED020D1AE9431D006BE012 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED020C1AE9431D006BE012 /* CoreMedia.framework */; };
+		43ED020F1AE94327006BE012 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED020E1AE94327006BE012 /* CoreLocation.framework */; };
+		43ED02111AE94330006BE012 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED02101AE94330006BE012 /* CoreGraphics.framework */; };
+		43ED02131AE9433A006BE012 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED02121AE9433A006BE012 /* Accelerate.framework */; };
+		43ED02151AE94343006BE012 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED02141AE94343006BE012 /* SystemConfiguration.framework */; };
+		43ED02171AE9434F006BE012 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED02161AE9434F006BE012 /* MobileCoreServices.framework */; };
+		43ED02191AE9435A006BE012 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED02181AE9435A006BE012 /* CoreData.framework */; };
+		43ED021B1AE94363006BE012 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED021A1AE94363006BE012 /* CoreVideo.framework */; };
+		43ED021D1AE9436A006BE012 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED021C1AE9436A006BE012 /* Security.framework */; };
+		43ED021F1AE94373006BE012 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED021E1AE94373006BE012 /* libz.dylib */; };
+		43ED02211AE9437C006BE012 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED02201AE9437C006BE012 /* libresolv.dylib */; };
+		43ED02231AE94384006BE012 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED02221AE94384006BE012 /* libxml2.dylib */; };
+		43ED022B1AE94448006BE012 /* RtccCallManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ED02271AE94448006BE012 /* RtccCallManager.m */; };
+		43ED022C1AE94448006BE012 /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ED022A1AE94448006BE012 /* Log.m */; };
+		43ED022F1AE945FB006BE012 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED022E1AE945FB006BE012 /* CoreTelephony.framework */; };
+		43ED02311AE94604006BE012 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED02301AE94604006BE012 /* libstdc++.dylib */; };
+		43ED02331AE9460F006BE012 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED02321AE9460F006BE012 /* OpenGLES.framework */; };
+		43ED02351AE94635006BE012 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED02341AE94635006BE012 /* GLKit.framework */; };
+		43ED02371AE9466A006BE012 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ED02361AE9466A006BE012 /* AudioToolbox.framework */; };
+		43EF2CF41AEF8964006DB3F2 /* CallManager4.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EF2CF31AEF8964006DB3F2 /* CallManager4.m */; };
+		43EF2CF71AEF8991006DB3F2 /* CallReceiver4.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EF2CF61AEF8991006DB3F2 /* CallReceiver4.m */; };
+		43EF88391AECFBBC0047CAAE /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EF88381AECFBBC0047CAAE /* LogViewController.m */; };
+		43EFE1551AEE1AFA00E85D70 /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EFE1541AEE1AFA00E85D70 /* StatsViewController.m */; };
+		43F23DD51AEC1C3C00340910 /* ReceiverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F23DD41AEC1C3C00340910 /* ReceiverViewController.m */; };
+		43F23DD81AEC1C4F00340910 /* CallerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F23DD71AEC1C4F00340910 /* CallerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43ED01F21AE94256006BE012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43ED01D01AE94255006BE012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43ED01D71AE94255006BE012;
+			remoteInfo = SightCallClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BD90F451AEEA73B00F55383 /* CallReceiverNoReset1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallReceiverNoReset1.h; sourceTree = "<group>"; };
+		3BD90F461AEEA73B00F55383 /* CallReceiverNoReset1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallReceiverNoReset1.m; sourceTree = "<group>"; };
+		43E5826C1AEEBBE0002CB5C3 /* CallManager2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallManager2.h; sourceTree = "<group>"; };
+		43E5826D1AEEBBE0002CB5C3 /* CallManager2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallManager2.m; sourceTree = "<group>"; };
+		43E5826F1AEEBDD5002CB5C3 /* CallReceiver2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallReceiver2.h; sourceTree = "<group>"; };
+		43E582701AEEBDD5002CB5C3 /* CallReceiver2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallReceiver2.m; sourceTree = "<group>"; };
+		43E582721AEED0D7002CB5C3 /* CallManager3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallManager3.h; sourceTree = "<group>"; };
+		43E582731AEED0D7002CB5C3 /* CallManager3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallManager3.m; sourceTree = "<group>"; };
+		43E582751AEED106002CB5C3 /* CallReceiver3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallReceiver3.h; sourceTree = "<group>"; };
+		43E582761AEED106002CB5C3 /* CallReceiver3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallReceiver3.m; sourceTree = "<group>"; };
+		43E80AD51AEA877F00A9C436 /* Auth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Auth.h; sourceTree = "<group>"; };
+		43E80AD61AEA877F00A9C436 /* Auth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Auth.m; sourceTree = "<group>"; };
+		43E80AD81AEAA40100A9C436 /* CallManager1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallManager1.h; sourceTree = "<group>"; };
+		43E80AD91AEAA40100A9C436 /* CallManager1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallManager1.m; sourceTree = "<group>"; };
+		43E80ADC1AEAA92400A9C436 /* CallsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallsGenerator.h; sourceTree = "<group>"; };
+		43E80ADD1AEAA92400A9C436 /* CallsGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallsGenerator.m; sourceTree = "<group>"; };
+		43E80ADF1AEADDF400A9C436 /* CallsReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallsReceiver.h; sourceTree = "<group>"; };
+		43E80AE01AEADDF400A9C436 /* CallsReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallsReceiver.m; sourceTree = "<group>"; };
+		43E80AE21AEADE6200A9C436 /* CallReceiver1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallReceiver1.h; sourceTree = "<group>"; };
+		43E80AE31AEADE6200A9C436 /* CallReceiver1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallReceiver1.m; sourceTree = "<group>"; };
+		43E80AE51AEAF18C00A9C436 /* CallsTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallsTester.h; sourceTree = "<group>"; };
+		43E80AE61AEAF18C00A9C436 /* CallsTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallsTester.m; sourceTree = "<group>"; };
+		43E8DED31AED93AC0065327A /* RtccLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtccLogViewController.h; sourceTree = "<group>"; };
+		43E8DED41AED93AC0065327A /* RtccLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RtccLogViewController.m; sourceTree = "<group>"; };
+		43EA52531AEB8E1B0088F563 /* TabbedMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabbedMain.storyboard; sourceTree = "<group>"; };
+		43ED01D81AE94255006BE012 /* SightCallClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SightCallClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43ED01DC1AE94256006BE012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43ED01DD1AE94256006BE012 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43ED01DF1AE94256006BE012 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43ED01E01AE94256006BE012 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43ED01E21AE94256006BE012 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43ED01E31AE94256006BE012 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43ED01E61AE94256006BE012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43ED01E81AE94256006BE012 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43ED01EB1AE94256006BE012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		43ED01F11AE94256006BE012 /* SightCallClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SightCallClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43ED01F61AE94256006BE012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43ED01F71AE94256006BE012 /* SightCallClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SightCallClientTests.m; sourceTree = "<group>"; };
+		43ED02021AE94281006BE012 /* RtccSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RtccSDK.framework; sourceTree = "<group>"; };
+		43ED02041AE942BA006BE012 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		43ED02061AE942C2006BE012 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		43ED02081AE942D4006BE012 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		43ED020A1AE94311006BE012 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43ED020C1AE9431D006BE012 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		43ED020E1AE94327006BE012 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		43ED02101AE94330006BE012 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		43ED02121AE9433A006BE012 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		43ED02141AE94343006BE012 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		43ED02161AE9434F006BE012 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		43ED02181AE9435A006BE012 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		43ED021A1AE94363006BE012 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		43ED021C1AE9436A006BE012 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		43ED021E1AE94373006BE012 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		43ED02201AE9437C006BE012 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+		43ED02221AE94384006BE012 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		43ED02251AE94448006BE012 /* CallManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallManager.h; sourceTree = "<group>"; };
+		43ED02261AE94448006BE012 /* RtccCallManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtccCallManager.h; sourceTree = "<group>"; };
+		43ED02271AE94448006BE012 /* RtccCallManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RtccCallManager.m; sourceTree = "<group>"; };
+		43ED02281AE94448006BE012 /* RtccCallManager_Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtccCallManager_Protected.h; sourceTree = "<group>"; };
+		43ED02291AE94448006BE012 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		43ED022A1AE94448006BE012 /* Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
+		43ED022D1AE9453B006BE012 /* Imports.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Imports.h; sourceTree = "<group>"; };
+		43ED022E1AE945FB006BE012 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		43ED02301AE94604006BE012 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		43ED02321AE9460F006BE012 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		43ED02341AE94635006BE012 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		43ED02361AE9466A006BE012 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		43EF2CF21AEF8964006DB3F2 /* CallManager4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallManager4.h; sourceTree = "<group>"; };
+		43EF2CF31AEF8964006DB3F2 /* CallManager4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallManager4.m; sourceTree = "<group>"; };
+		43EF2CF51AEF8991006DB3F2 /* CallReceiver4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallReceiver4.h; sourceTree = "<group>"; };
+		43EF2CF61AEF8991006DB3F2 /* CallReceiver4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallReceiver4.m; sourceTree = "<group>"; };
+		43EF88371AECFBBC0047CAAE /* LogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
+		43EF88381AECFBBC0047CAAE /* LogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
+		43EFE1531AEE1AF900E85D70 /* StatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsViewController.h; sourceTree = "<group>"; };
+		43EFE1541AEE1AFA00E85D70 /* StatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsViewController.m; sourceTree = "<group>"; };
+		43F23DD31AEC1C3C00340910 /* ReceiverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiverViewController.h; sourceTree = "<group>"; };
+		43F23DD41AEC1C3C00340910 /* ReceiverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiverViewController.m; sourceTree = "<group>"; };
+		43F23DD61AEC1C4F00340910 /* CallerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallerViewController.h; sourceTree = "<group>"; };
+		43F23DD71AEC1C4F00340910 /* CallerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43ED01D51AE94255006BE012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ED02371AE9466A006BE012 /* AudioToolbox.framework in Frameworks */,
+				43ED02351AE94635006BE012 /* GLKit.framework in Frameworks */,
+				43ED02331AE9460F006BE012 /* OpenGLES.framework in Frameworks */,
+				43ED02311AE94604006BE012 /* libstdc++.dylib in Frameworks */,
+				43ED022F1AE945FB006BE012 /* CoreTelephony.framework in Frameworks */,
+				43ED02231AE94384006BE012 /* libxml2.dylib in Frameworks */,
+				43ED02211AE9437C006BE012 /* libresolv.dylib in Frameworks */,
+				43ED021F1AE94373006BE012 /* libz.dylib in Frameworks */,
+				43ED021D1AE9436A006BE012 /* Security.framework in Frameworks */,
+				43ED021B1AE94363006BE012 /* CoreVideo.framework in Frameworks */,
+				43ED02191AE9435A006BE012 /* CoreData.framework in Frameworks */,
+				43ED02171AE9434F006BE012 /* MobileCoreServices.framework in Frameworks */,
+				43ED02151AE94343006BE012 /* SystemConfiguration.framework in Frameworks */,
+				43ED02131AE9433A006BE012 /* Accelerate.framework in Frameworks */,
+				43ED02111AE94330006BE012 /* CoreGraphics.framework in Frameworks */,
+				43ED020F1AE94327006BE012 /* CoreLocation.framework in Frameworks */,
+				43ED020D1AE9431D006BE012 /* CoreMedia.framework in Frameworks */,
+				43ED020B1AE94311006BE012 /* Foundation.framework in Frameworks */,
+				43ED02091AE942D4006BE012 /* QuartzCore.framework in Frameworks */,
+				43ED02071AE942C2006BE012 /* CFNetwork.framework in Frameworks */,
+				43ED02051AE942BA006BE012 /* AVFoundation.framework in Frameworks */,
+				43ED02031AE94281006BE012 /* RtccSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43ED01EE1AE94256006BE012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43E80ADB1AEAA42300A9C436 /* CallManagers */ = {
+			isa = PBXGroup;
+			children = (
+				43E80AD81AEAA40100A9C436 /* CallManager1.h */,
+				43E80AD91AEAA40100A9C436 /* CallManager1.m */,
+				43E5826C1AEEBBE0002CB5C3 /* CallManager2.h */,
+				43E5826D1AEEBBE0002CB5C3 /* CallManager2.m */,
+				43E582721AEED0D7002CB5C3 /* CallManager3.h */,
+				43E582731AEED0D7002CB5C3 /* CallManager3.m */,
+				43EF2CF21AEF8964006DB3F2 /* CallManager4.h */,
+				43EF2CF31AEF8964006DB3F2 /* CallManager4.m */,
+				43E80AE21AEADE6200A9C436 /* CallReceiver1.h */,
+				43E80AE31AEADE6200A9C436 /* CallReceiver1.m */,
+				43E5826F1AEEBDD5002CB5C3 /* CallReceiver2.h */,
+				43E582701AEEBDD5002CB5C3 /* CallReceiver2.m */,
+				3BD90F451AEEA73B00F55383 /* CallReceiverNoReset1.h */,
+				3BD90F461AEEA73B00F55383 /* CallReceiverNoReset1.m */,
+				43E582751AEED106002CB5C3 /* CallReceiver3.h */,
+				43E582761AEED106002CB5C3 /* CallReceiver3.m */,
+				43EF2CF51AEF8991006DB3F2 /* CallReceiver4.h */,
+				43EF2CF61AEF8991006DB3F2 /* CallReceiver4.m */,
+			);
+			name = CallManagers;
+			sourceTree = "<group>";
+		};
+		43ED01CF1AE94255006BE012 = {
+			isa = PBXGroup;
+			children = (
+				43ED02011AE94281006BE012 /* 3rdParty */,
+				43ED01DA1AE94255006BE012 /* SightCallClient */,
+				43ED01F41AE94256006BE012 /* SightCallClientTests */,
+				43ED01D91AE94255006BE012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43ED01D91AE94255006BE012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43ED01D81AE94255006BE012 /* SightCallClient.app */,
+				43ED01F11AE94256006BE012 /* SightCallClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43ED01DA1AE94255006BE012 /* SightCallClient */ = {
+			isa = PBXGroup;
+			children = (
+				43ED02241AE94448006BE012 /* Rtcc */,
+				43E80ADB1AEAA42300A9C436 /* CallManagers */,
+				43ED02291AE94448006BE012 /* Log.h */,
+				43ED022A1AE94448006BE012 /* Log.m */,
+				43E80AE51AEAF18C00A9C436 /* CallsTester.h */,
+				43E80AE61AEAF18C00A9C436 /* CallsTester.m */,
+				43E80ADC1AEAA92400A9C436 /* CallsGenerator.h */,
+				43E80ADD1AEAA92400A9C436 /* CallsGenerator.m */,
+				43E80ADF1AEADDF400A9C436 /* CallsReceiver.h */,
+				43E80AE01AEADDF400A9C436 /* CallsReceiver.m */,
+				43E80AD51AEA877F00A9C436 /* Auth.h */,
+				43E80AD61AEA877F00A9C436 /* Auth.m */,
+				43ED01DF1AE94256006BE012 /* AppDelegate.h */,
+				43ED01E01AE94256006BE012 /* AppDelegate.m */,
+				43ED01E21AE94256006BE012 /* ViewController.h */,
+				43ED01E31AE94256006BE012 /* ViewController.m */,
+				43F23DD31AEC1C3C00340910 /* ReceiverViewController.h */,
+				43F23DD41AEC1C3C00340910 /* ReceiverViewController.m */,
+				43F23DD61AEC1C4F00340910 /* CallerViewController.h */,
+				43F23DD71AEC1C4F00340910 /* CallerViewController.m */,
+				43EF88371AECFBBC0047CAAE /* LogViewController.h */,
+				43EF88381AECFBBC0047CAAE /* LogViewController.m */,
+				43E8DED31AED93AC0065327A /* RtccLogViewController.h */,
+				43E8DED41AED93AC0065327A /* RtccLogViewController.m */,
+				43EFE1531AEE1AF900E85D70 /* StatsViewController.h */,
+				43EFE1541AEE1AFA00E85D70 /* StatsViewController.m */,
+				43ED022D1AE9453B006BE012 /* Imports.h */,
+				43ED01E51AE94256006BE012 /* Main.storyboard */,
+				43EA52531AEB8E1B0088F563 /* TabbedMain.storyboard */,
+				43ED01E81AE94256006BE012 /* Images.xcassets */,
+				43ED01EA1AE94256006BE012 /* LaunchScreen.xib */,
+				43ED01DB1AE94256006BE012 /* Supporting Files */,
+			);
+			path = SightCallClient;
+			sourceTree = "<group>";
+		};
+		43ED01DB1AE94256006BE012 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43ED01DC1AE94256006BE012 /* Info.plist */,
+				43ED01DD1AE94256006BE012 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43ED01F41AE94256006BE012 /* SightCallClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				43ED01F71AE94256006BE012 /* SightCallClientTests.m */,
+				43ED01F51AE94256006BE012 /* Supporting Files */,
+			);
+			path = SightCallClientTests;
+			sourceTree = "<group>";
+		};
+		43ED01F51AE94256006BE012 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43ED01F61AE94256006BE012 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43ED02011AE94281006BE012 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				43ED02361AE9466A006BE012 /* AudioToolbox.framework */,
+				43ED02341AE94635006BE012 /* GLKit.framework */,
+				43ED02321AE9460F006BE012 /* OpenGLES.framework */,
+				43ED02301AE94604006BE012 /* libstdc++.dylib */,
+				43ED022E1AE945FB006BE012 /* CoreTelephony.framework */,
+				43ED02221AE94384006BE012 /* libxml2.dylib */,
+				43ED02201AE9437C006BE012 /* libresolv.dylib */,
+				43ED021E1AE94373006BE012 /* libz.dylib */,
+				43ED021C1AE9436A006BE012 /* Security.framework */,
+				43ED021A1AE94363006BE012 /* CoreVideo.framework */,
+				43ED02181AE9435A006BE012 /* CoreData.framework */,
+				43ED02161AE9434F006BE012 /* MobileCoreServices.framework */,
+				43ED02141AE94343006BE012 /* SystemConfiguration.framework */,
+				43ED02121AE9433A006BE012 /* Accelerate.framework */,
+				43ED02101AE94330006BE012 /* CoreGraphics.framework */,
+				43ED020E1AE94327006BE012 /* CoreLocation.framework */,
+				43ED020C1AE9431D006BE012 /* CoreMedia.framework */,
+				43ED020A1AE94311006BE012 /* Foundation.framework */,
+				43ED02081AE942D4006BE012 /* QuartzCore.framework */,
+				43ED02061AE942C2006BE012 /* CFNetwork.framework */,
+				43ED02041AE942BA006BE012 /* AVFoundation.framework */,
+				43ED02021AE94281006BE012 /* RtccSDK.framework */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+		43ED02241AE94448006BE012 /* Rtcc */ = {
+			isa = PBXGroup;
+			children = (
+				43ED02251AE94448006BE012 /* CallManager.h */,
+				43ED02261AE94448006BE012 /* RtccCallManager.h */,
+				43ED02271AE94448006BE012 /* RtccCallManager.m */,
+				43ED02281AE94448006BE012 /* RtccCallManager_Protected.h */,
+			);
+			path = Rtcc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43ED01D71AE94255006BE012 /* SightCallClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43ED01FB1AE94256006BE012 /* Build configuration list for PBXNativeTarget "SightCallClient" */;
+			buildPhases = (
+				43ED01D41AE94255006BE012 /* Sources */,
+				43ED01D51AE94255006BE012 /* Frameworks */,
+				43ED01D61AE94255006BE012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SightCallClient;
+			productName = SightCallClient;
+			productReference = 43ED01D81AE94255006BE012 /* SightCallClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43ED01F01AE94256006BE012 /* SightCallClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43ED01FE1AE94256006BE012 /* Build configuration list for PBXNativeTarget "SightCallClientTests" */;
+			buildPhases = (
+				43ED01ED1AE94256006BE012 /* Sources */,
+				43ED01EE1AE94256006BE012 /* Frameworks */,
+				43ED01EF1AE94256006BE012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43ED01F31AE94256006BE012 /* PBXTargetDependency */,
+			);
+			name = SightCallClientTests;
+			productName = SightCallClientTests;
+			productReference = 43ED01F11AE94256006BE012 /* SightCallClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43ED01D01AE94255006BE012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Masslight;
+				TargetAttributes = {
+					43ED01D71AE94255006BE012 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					43ED01F01AE94256006BE012 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 43ED01D71AE94255006BE012;
+					};
+				};
+			};
+			buildConfigurationList = 43ED01D31AE94255006BE012 /* Build configuration list for PBXProject "SightCallClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43ED01CF1AE94255006BE012;
+			productRefGroup = 43ED01D91AE94255006BE012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43ED01D71AE94255006BE012 /* SightCallClient */,
+				43ED01F01AE94256006BE012 /* SightCallClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43ED01D61AE94255006BE012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ED01E71AE94256006BE012 /* Main.storyboard in Resources */,
+				43ED01EC1AE94256006BE012 /* LaunchScreen.xib in Resources */,
+				43ED01E91AE94256006BE012 /* Images.xcassets in Resources */,
+				43EA52541AEB8E1B0088F563 /* TabbedMain.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43ED01EF1AE94256006BE012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43ED01D41AE94255006BE012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ED01E41AE94256006BE012 /* ViewController.m in Sources */,
+				43E80ADE1AEAA92400A9C436 /* CallsGenerator.m in Sources */,
+				43E80AE41AEADE6200A9C436 /* CallReceiver1.m in Sources */,
+				43F23DD51AEC1C3C00340910 /* ReceiverViewController.m in Sources */,
+				43ED022C1AE94448006BE012 /* Log.m in Sources */,
+				43EF2CF71AEF8991006DB3F2 /* CallReceiver4.m in Sources */,
+				43E582711AEEBDD5002CB5C3 /* CallReceiver2.m in Sources */,
+				43E8DED51AED93AC0065327A /* RtccLogViewController.m in Sources */,
+				43ED01E11AE94256006BE012 /* AppDelegate.m in Sources */,
+				43ED01DE1AE94256006BE012 /* main.m in Sources */,
+				43EF88391AECFBBC0047CAAE /* LogViewController.m in Sources */,
+				43ED022B1AE94448006BE012 /* RtccCallManager.m in Sources */,
+				43E582741AEED0D7002CB5C3 /* CallManager3.m in Sources */,
+				43E80ADA1AEAA40100A9C436 /* CallManager1.m in Sources */,
+				43E80AE11AEADDF400A9C436 /* CallsReceiver.m in Sources */,
+				43F23DD81AEC1C4F00340910 /* CallerViewController.m in Sources */,
+				43E80AE71AEAF18C00A9C436 /* CallsTester.m in Sources */,
+				3BD90F471AEEA73B00F55383 /* CallReceiverNoReset1.m in Sources */,
+				43E582771AEED106002CB5C3 /* CallReceiver3.m in Sources */,
+				43EF2CF41AEF8964006DB3F2 /* CallManager4.m in Sources */,
+				43EFE1551AEE1AFA00E85D70 /* StatsViewController.m in Sources */,
+				43E80AD71AEA877F00A9C436 /* Auth.m in Sources */,
+				43E5826E1AEEBBE0002CB5C3 /* CallManager2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43ED01ED1AE94256006BE012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ED01F81AE94256006BE012 /* SightCallClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43ED01F31AE94256006BE012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43ED01D71AE94255006BE012 /* SightCallClient */;
+			targetProxy = 43ED01F21AE94256006BE012 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43ED01E51AE94256006BE012 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43ED01E61AE94256006BE012 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43ED01EA1AE94256006BE012 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43ED01EB1AE94256006BE012 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43ED01F91AE94256006BE012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43ED01FA1AE94256006BE012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43ED01FC1AE94256006BE012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3rdParty",
+				);
+				INFOPLIST_FILE = SightCallClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		43ED01FD1AE94256006BE012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3rdParty",
+				);
+				INFOPLIST_FILE = SightCallClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		43ED01FF1AE94256006BE012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SightCallClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SightCallClient.app/SightCallClient";
+			};
+			name = Debug;
+		};
+		43ED02001AE94256006BE012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SightCallClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SightCallClient.app/SightCallClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43ED01D31AE94255006BE012 /* Build configuration list for PBXProject "SightCallClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43ED01F91AE94256006BE012 /* Debug */,
+				43ED01FA1AE94256006BE012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43ED01FB1AE94256006BE012 /* Build configuration list for PBXNativeTarget "SightCallClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43ED01FC1AE94256006BE012 /* Debug */,
+				43ED01FD1AE94256006BE012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43ED01FE1AE94256006BE012 /* Build configuration list for PBXNativeTarget "SightCallClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43ED01FF1AE94256006BE012 /* Debug */,
+				43ED02001AE94256006BE012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43ED01D01AE94255006BE012 /* Project object */;
+}
